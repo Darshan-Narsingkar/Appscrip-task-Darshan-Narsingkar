@@ -1,0 +1,66 @@
+/* Product List Grid */
+.productList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 products per row by default (laptop view) */
+    gap: 20px;
+    margin-left: 100px;
+    padding-left: 100px;
+    margin-top: -350px;
+  }
+  
+  /* Product Card */
+  .productCard {
+    width: 300px; /* Make product cards full-width within their grid space */
+    padding: 20px;
+    margin-left: 70px;
+    margin-top: 0px;
+  }
+  
+  .productCard img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 1200px) { 
+    /* For tablet/laptop screens, display 4 products per row */
+    .productList {
+      grid-template-columns: repeat(4, 1fr); /* 4 products per row */
+      margin-left: 0; /* Adjust margin for better fit */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    /* For tablets and small devices, display 2 products per row */
+    .productList {
+      grid-template-columns: repeat(2, 1fr); /* 2 products per row */
+      width: 100%;
+      margin-top:15px;
+      margin-left: -130px;
+    
+    }
+  }
+
+
+  @media (max-width: 768px) {
+    /* For tablets and small devices, display 2 products per row */
+    .productCard {
+      width: 250px; /* Make product cards full-width within their grid space */
+      padding-left:1px;
+      margin-left: 70px;
+      margin-top: 0px;
+    }
+  }
+
+
+
+  
+  @media (max-width: 480px) {
+    /* For mobile phones, display 1 product per row */
+    .productList {
+      grid-template-columns: 1fr; /* 1 product per row */
+      margin-left: 0px;
+      width: 100%;
+    }
+  }
+  

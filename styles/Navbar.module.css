@@ -1,0 +1,101 @@
+/* Navbar container */
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    width: 100%;
+  }
+  
+  /* Adjust logo and navigation for responsiveness */
+  .textLogo {
+    text-align: center;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navMenu {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    padding-top: 10px;
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 1024px) {
+    .textLogo {
+      margin-left: 50px;
+      font-size: 20px;
+    }
+  }
+
+  @media (max-width: 1920px) {
+    .logo {
+      margin-left:-70px;
+      font-size: 20px;
+      display: flex;
+      margin-top: 20px;
+    }
+  }
+
+  @media (max-width: 1920px) {
+    .navIcons {
+      margin-left:1500px;
+      display: flex;
+      margin-top: 20px;
+      gap: 15px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .navMenu {
+      gap: 30px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .logo {
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+  }
+
+
+  @media (max-width: 768px) {
+    .navIcons {
+      display: flex;
+      padding-left: 500px;
+      gap: 5px;
+      margin-bottom: 10px;
+    }
+  }
+
+
+
+
+  
+  @media (max-width: 768px) {
+    .textLogo {
+      text-align: center;
+      font-family: 'Helvetica Neue', sans-serif;
+      font-size: 24;
+      font-weight: bold;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .textLogo {
+      font-size: 18px;
+    }
+  
+    .navMenu {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  

@@ -1,0 +1,26 @@
+/* Full width container */
+.container {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Controls for filter and sort */
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px 40px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .controls {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  

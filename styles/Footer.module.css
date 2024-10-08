@@ -1,0 +1,60 @@
+/* Footer Styles */
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 20px;
+    width: 100%;
+  }
+  
+  .footerContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .newsletter, .contact, .quickLinks, .followUs {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+  }
+  
+
+  .socialIcons{
+      display: flex;
+  }
+
+  .paymentMethods{
+    display: flex;
+  }
+  /*Responsive adjustments */
+  @media (max-width: 768px) {
+    .footerContainer {
+      flex-direction: row;
+      align-items: center;
+      width:fit-content;
+    }
+  } 
+  
+  
+
+  @media (max-width: 480px) {
+    .footer{
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+  }
+  
+
+  @media (max-width: 480px) {
+    .newsletter, .contact, .quickLinks, .followUs {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .signupForm {
+      flex-direction: column;
+      gap: 5px;
+    }
+  }
+  
