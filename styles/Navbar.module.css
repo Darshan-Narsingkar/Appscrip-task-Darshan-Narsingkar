@@ -7,7 +7,14 @@
     padding: 10px 20px;
     width: 100%;
   }
-  
+
+.logo{
+    margin-left: 50px;
+}
+
+.navIcons{
+    margin-right:250px;
+}
   /* Adjust logo and navigation for responsiveness */
   .textLogo {
     text-align: center;
