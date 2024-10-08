@@ -8,12 +8,21 @@
     width: 100%;
   }
 
-.logo{
-    margin-left: 50px;
+.logo img{
+    maxwidth:80px;
+    margin-right:auto;
+    padding-top:5px;
 }
 
 .navIcons{
-    margin-right:-50px;
+    display:flex;
+    align-items:center;
+    gap:20px;
+    margin-left:auto;
+}
+
+.navIcons a img{
+    maxwidth:24px;
 }
   /* Adjust logo and navigation for responsiveness */
   .textLogo {
